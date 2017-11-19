@@ -1,0 +1,2 @@
+colorscheme playa_light
+AirlineTheme playa_light

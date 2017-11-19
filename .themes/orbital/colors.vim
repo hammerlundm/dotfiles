@@ -1,0 +1,2 @@
+colorscheme orbital
+AirlineTheme orbital

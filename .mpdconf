@@ -1,0 +1,22 @@
+music_directory "~/Music"
+playlist_directory  "~/.mpd/playlists"
+db_file "~/.mpd/db"
+log_file    "~/.mpd/log"
+pid_file    "~/.mpd/pid"
+state_file  "~/.mpd/mpdstate"
+user    "max"
+mixer_type  "software"
+audio_output {
+    type    "alsa"
+    name    "my alsa device"
+    device  "hw:0"
+    buffer_time	"50000"
+}
+audio_output {
+    type "fifo"
+    name "my_fifo"
+    path "/tmp/mpd.fifo"
+    format "44100:16:2"
+    visualizer_in_stereo "yes"
+}
+bind_to_address "::"

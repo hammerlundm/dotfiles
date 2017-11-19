@@ -1,0 +1,43 @@
+[options]
+font = Roboto Mono for Powerline 18
+dynamic_title = true
+[colors]
+# special
+foreground      = #dfdfdf
+foreground_bold = #dfdfdf
+cursor          = #dfdfdf
+#background      = #1c1c1c
+background      = rgba(28, 28, 28, 0.8)
+
+# black
+color0  = #1c1c1c
+color8  = #767676
+
+# red
+color1  = #d75f5f
+color9  = #d75f5f
+
+# green
+color2  = #af5f5f
+color10 = #af5f5f
+
+# yellow
+color3  = #dfaf87
+color11 = #dfaf87
+
+# blue
+color4  = #af8787
+color12 = #af8787
+
+# magenta
+color5  = #ffafaf
+color13 = #ffafaf
+
+# cyan
+color6  = #afd7d7
+color14 = #afd7d7
+
+# white
+color7  = #dfdfdf
+color15 = #dfdfdf
+

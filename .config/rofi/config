@@ -1,0 +1,12 @@
+#include "/home/max/.themes/rofi"
+rofi.modi:		drun,window,run,ssh
+rofi.terminal:		termite
+rofi.ssh-command:	{terminal} -e "{ssh-client} {host}"
+rofi.run-shell-command:	{terminal} -e "{cmd}"
+rofi.sidebar-mode:	true
+rofi.separator-style:	solid
+rofi.hide-scrollbar:	true
+rofi.dpi:		198
+rofi.show-icons:	true
+rofi.drun-icon-theme:	Adwaita
+

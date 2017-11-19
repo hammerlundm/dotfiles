@@ -1,0 +1,2 @@
+colorscheme solarized
+AirlineTheme solarized
